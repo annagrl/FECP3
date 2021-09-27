@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Vidaloka&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: seashell;
+}
+
+.principal{
+    margin: 100px auto;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h1{
+    font-family: 'Vidaloka', serif;
+    color: rgb(229, 106, 84);
+    font-size: 50px;
+}
+
+.intro{
+    display: block;
+    font-size: 20px;
+    line-height: 32px;
+    width: 500px;
+}
+fieldset{
+    border: none;
+    padding-bottom: 10px;
+}
+input{
+    width: 330px;
+    border: solid 1px lightgray;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+}
+input:focus{
+    border-color: rgb(229, 106, 84);
+    box-shadow: 0 0 .5em rgb(229, 106, 84);
+}
+
+.login{
+    display: block;
+    text-align: center;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 0.5em lightgray;
+    margin: 48px 0 0;
+    padding: 20px 0 28px;
+    width: 400px;
+}
+.recuperarsenha{
+    margin-top: 16px;
+}
+.recuperarsenha a{
+    text-decoration: none;
+}
+.recuperarsenha a:hover{
+    text-decoration: underline;
+}
+.divisor {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+
+}
+button {
+    color: white;
+    font-size: 18px;
+    padding: 0 16px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    line-height: 48px;
+    cursor: pointer;
+}
+
+
+#entrar{
+    background: rgb(229, 106, 84);
+    width: 330px;
+}
+#entrar:hover{
+    background: rgb(221, 94, 71);
+
+}
+#novaconta{
+    background: rgb(74, 49, 145);
+}
+#novaconta:hover{
+    background-color: rgb(57, 32, 124);
+}
