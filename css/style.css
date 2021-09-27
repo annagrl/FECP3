@@ -1,9 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Vidaloka&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    list-style-type: none;
   }
 
-  
+  body{
+    font-family: "Poppins", sans-serif;
+    background: rgb(74, 49, 145);
+  }
+  header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+  }
+  header h1 {
+    font-family: "VidaLoka", sans;
+    font-size: 30px;
+    color: rgb(229, 106, 84);
+  }
+  header ul {
+    display: flex;
+  }
+  header ul li {
+    margin-left: 4px;
+  }
+  header li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 9px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+
+  header li a:hover{
+    background: rgb(74, 49, 145);
+    color: white;
+  }
+
+nav{
+  display: flex;
+  justify-content: flex-start;
+}
+.acesso a{
+  display: flex;
+  justify-content: flex-end;  
+  color: white;
+  text-decoration: none;
+}
