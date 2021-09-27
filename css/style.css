@@ -8,53 +8,38 @@
     list-style-type: none;
   }
 
-  body{
+body{
     font-family: "Poppins", sans-serif;
-    background: rgb(74, 49, 145);
+   
   }
+#banner{
+  background-image: url(../img/top-view-tourist-items-arrangement.jpg) ;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
   header{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     position: sticky;
     top: 0;
-    padding: 20px;
+    background:seashell;
+    width: 100vw;
+
   }
-  header h1 {
-    font-family: "VidaLoka", sans;
-    font-size: 30px;
-    color: rgb(229, 106, 84);
-  }
-  header ul {
-    display: flex;
-  }
-  header ul li {
-    margin-left: 4px;
-  }
+
   header li a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
+    text-transform: uppercase;
     border-radius: 9px;
     font-weight: bold;
     transition: all 0.3s ease-in-out;
   }
 
   header li a:hover{
-    background: rgb(74, 49, 145);
+    background: rgb(229, 106, 84);
     color: white;
   }
 
-nav{
-  display: flex;
-  justify-content: flex-start;
-}
-.acesso a{
-  display: flex;
-  justify-content: flex-end;  
-  color: white;
-  text-decoration: none;
-}
 .fab{
   width: 60px;
   height: 60px;
@@ -75,7 +60,7 @@ nav{
   right: 30px;
 }
 .fab:hover{
-  background: seashell;
+  background: rgb(229, 106, 84);
   box-shadow: 0 0 0.2em white;
 }
 
