@@ -5,15 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
 }
 body{
     background: seashell;
 }
 
 .principal{
-    margin: 100px auto;
-    width: 1000px;
+    padding: 100px 150px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,6 +21,7 @@ h1{
     font-family: 'Vidaloka', serif;
     color: rgb(229, 106, 84);
     font-size: 50px;
+    padding-bottom: 10px;
 }
 
 .intro{
@@ -105,4 +104,26 @@ button {
 }
 #novaconta:hover{
     background-color: rgb(57, 32, 124);
+}
+.fab{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: rgb(74, 49, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fab-btn a{
+    text-decoration: none;
+}
+.fab-btn{
+    display:block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.fab:hover{
+    background-color: rgb(57, 32, 124);
+    box-shadow: 0 0 0.5em lightgray;
 }

@@ -55,3 +55,27 @@ nav{
   color: white;
   text-decoration: none;
 }
+.fab{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  background: rgb(250, 221, 201);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fab-btn a{
+  text-decoration: none;
+}
+.fab-btn{
+  display:block;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.fab:hover{
+  background: seashell;
+  box-shadow: 0 0 0.2em white;
+}
+
