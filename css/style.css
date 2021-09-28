@@ -119,3 +119,14 @@ body{
   box-shadow: 0 0 0.2em white;
 }
 
+footer {
+  width: 100vw;
+  background-color: seashell;
+}
+
+/* ------------------ SOBRE NÓS -------------------  */
+
+.time {
+  background: rgb(57, 32, 124);
+  width: 100vw;
+} 
