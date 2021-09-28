@@ -49,6 +49,9 @@ body{
   margin-top: 500px;
 }
 
+.about-us {
+  margin-left:-600px;
+}
 .img-destinos {
   width: 300px;
   height: 300px;
