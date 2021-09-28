@@ -13,14 +13,6 @@ body{
    
   }
 
-#banner{
-  background-image: url(../img/top-view-tourist-items-arrangement.jpg) ;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
 .container{
   margin: 0;
   padding: 0;
@@ -45,6 +37,18 @@ body{
     color: white;
   }
 
+  #banner{
+    background-image: url(../img/top-view-tourist-items-arrangement.jpg) ;
+    height: calc(100vh - 73px);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+.sobre-nos {
+  margin-top: 500px;
+}
+
 .img-destinos {
   width: 300px;
   height: 300px;
@@ -56,7 +60,6 @@ body{
 .img-destinos:hover {
   transform:scale(1.1);
 }
-
 
 .new-york {
   background-image: url(http://viva-mundo.com/sites/default/files/images/posts/NewYork.jpg);
@@ -74,7 +77,21 @@ body{
   background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/09/93/6a/89.jpg);
 }
 
+.egito {
+  background-image: url(https://www.eusemfronteiras.com.br/wp-content/uploads/2019/09/120701535_m.jpg);
+}
 
+.dubai {
+  background-image: url(https://assistentedeviagem.com.br/blog/wp-content/uploads/2021/04/dubai.jpg);
+}
+
+.disney {
+  background-image: url(https://ogimg.infoglobo.com.br/in/25161878-97c-45c/FT1086A/Personagens-DisneyRoupa-50-anos.png);
+}
+
+.las-vegas {
+  background-image: url(https://www.daninoce.com.br/wp-content/uploads/2017/11/o-que-voce-precisa-saber-antes-de-ir-a-las-vegas-dani-noce-imagem-destaque-960x625.jpg);
+}
 .fab{
   width: 60px;
   height: 60px;
