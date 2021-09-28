@@ -12,6 +12,7 @@ body{
     font-family: "Poppins", sans-serif;
    
   }
+
 #banner{
   background-image: url(../img/top-view-tourist-items-arrangement.jpg) ;
   height: 100vh;
@@ -20,12 +21,16 @@ body{
   background-attachment: fixed;
 }
 
+.container{
+  margin: 0;
+  padding: 0;
+}
+
   header{
     position: sticky;
     top: 0;
     background:seashell;
     width: 100vw;
-
   }
 
   header li a {
