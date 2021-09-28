@@ -8,52 +8,89 @@
     list-style-type: none;
   }
 
-  body{
+body{
     font-family: "Poppins", sans-serif;
-    background: rgb(74, 49, 145);
+   
   }
+
+.container{
+  margin: 0;
+  padding: 0;
+}
+
   header{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     position: sticky;
     top: 0;
-    padding: 20px;
+    background:seashell;
+    width: 100vw;
   }
-  header h1 {
-    font-family: "VidaLoka", sans;
-    font-size: 30px;
-    color: rgb(229, 106, 84);
-  }
-  header ul {
-    display: flex;
-  }
-  header ul li {
-    margin-left: 4px;
-  }
+
   header li a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
+    text-transform: uppercase;
     border-radius: 9px;
     font-weight: bold;
     transition: all 0.3s ease-in-out;
   }
 
   header li a:hover{
-    background: rgb(74, 49, 145);
+    background: rgb(229, 106, 84);
     color: white;
   }
 
-nav{
-  display: flex;
-  justify-content: flex-start;
+  #banner{
+    background-image: url(../img/top-view-tourist-items-arrangement.jpg) ;
+    height: calc(100vh - 73px);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+.sobre-nos {
+  margin-top: 500px;
 }
-.acesso a{
-  display: flex;
-  justify-content: flex-end;  
-  color: white;
-  text-decoration: none;
+
+.img-destinos {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.img-destinos:hover {
+  transform:scale(1.1);
+}
+
+.new-york {
+  background-image: url(http://viva-mundo.com/sites/default/files/images/posts/NewYork.jpg);
+}
+
+.berlin {
+  background-image: url(https://www.lingua-institut.com/themes/default/ressources/img/sejours/berlin.jpg);
+}
+
+.auckland {
+  background-image: url(https://www.australiancentre.com.br/site/wp-content/uploads/2018/06/vista-da-cidade-auckland.jpg);
+}
+
+.london {
+  background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/09/93/6a/89.jpg);
+}
+
+.egito {
+  background-image: url(https://www.eusemfronteiras.com.br/wp-content/uploads/2019/09/120701535_m.jpg);
+}
+
+.dubai {
+  background-image: url(https://assistentedeviagem.com.br/blog/wp-content/uploads/2021/04/dubai.jpg);
+}
+
+.disney {
+  background-image: url(https://ogimg.infoglobo.com.br/in/25161878-97c-45c/FT1086A/Personagens-DisneyRoupa-50-anos.png);
+}
+
+.las-vegas {
+  background-image: url(https://www.daninoce.com.br/wp-content/uploads/2017/11/o-que-voce-precisa-saber-antes-de-ir-a-las-vegas-dani-noce-imagem-destaque-960x625.jpg);
 }
 .fab{
   width: 60px;
@@ -75,7 +112,7 @@ nav{
   right: 30px;
 }
 .fab:hover{
-  background: seashell;
+  background: rgb(229, 106, 84);
   box-shadow: 0 0 0.2em white;
 }
 
