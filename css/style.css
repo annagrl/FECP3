@@ -23,6 +23,7 @@ body{
     top: 0;
     background:seashell;
     width: 100vw;
+    z-index: 1;
   }
 
   header li a {
@@ -129,4 +130,6 @@ footer {
 .time {
   background: rgb(57, 32, 124);
   width: 100vw;
+  z-index: -1;
 } 
+
