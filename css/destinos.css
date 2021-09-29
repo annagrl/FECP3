@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    padding: 0%;
+    margin: 0px;
+}
+
+#banner{
+    background-image: url("https://wallpapercave.com/wp/wp4201664.jpg");
+    height: calc(100vh - 72px);
+    background-attachment: fixed;
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+h1{
+    background-color: rgba(250, 235, 215, 0.781);
+    width: 40%;
+    margin: 0px auto;
+    border-radius: 9px;
+    padding: 15px;
+}
+
+main{
+    background-color: rgba(250, 214, 166, 0.493);
+}
+
+
+
+.separacao{
+    border: rgba(129, 163, 163, 0.26) solid 1px;
+    padding: 0px;
+    width: 35%;
+    margin: 6px auto;
+    border-radius: 9px;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
