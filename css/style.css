@@ -147,3 +147,10 @@ footer {
   z-index: -1;
 } 
 
+#equipe{
+  gap:1rem;
+  align-items: center;
+  padding-bottom: 1rem;
+  flex-flow: wrap;
+  justify-content: center;
+}
