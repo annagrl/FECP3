@@ -147,3 +147,14 @@ footer {
   width: 100vw;
   z-index: -1;
 } 
+
+/* ------------------ DESTINOS INTERNACIONAIS -------------------  */
+
+.banner-destinos-int {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg);
+  width:100vw;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: top 40px;
+}
