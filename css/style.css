@@ -100,6 +100,16 @@ body{
 .las-vegas {
   background-image: url(https://www.daninoce.com.br/wp-content/uploads/2017/11/o-que-voce-precisa-saber-antes-de-ir-a-las-vegas-dani-noce-imagem-destaque-960x625.jpg);
 }
+
+.rating img{
+  width: 100px;
+}
+
+.foto-cliente img {
+  border-radius: 50%;
+  width: 140px;
+}
+
 .fab{
   width: 60px;
   height: 60px;
