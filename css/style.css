@@ -40,14 +40,14 @@ body{
 
   #banner{
     background-image: url(../img/top-view-tourist-items-arrangement.jpg) ;
-    height: calc(100vh - 73px);
+    height: calc(100vh - 139px);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
 
 .sobre-nos {
-  margin-top: 500px;
+  margin-top: 400px;
   background-color: rgba(255, 255, 255, 0.712);
   padding: 20px;
   border-radius: 10px 0;

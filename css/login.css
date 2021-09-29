@@ -10,8 +10,21 @@ body{
     background: seashell;
 }
 
+  header li a {
+    text-transform: uppercase;
+    border-radius: 9px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+
+  header li a:hover{
+    background: rgb(229, 106, 84);
+    color: white;
+  }
+
+
 .principal{
-    padding: 100px 150px 0;
+    padding: 70px 150px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
