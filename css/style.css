@@ -108,6 +108,7 @@ body{
 .foto-cliente img {
   border-radius: 50%;
   width: 140px;
+  height: 140px;
 }
 
 .fab{
@@ -153,4 +154,13 @@ footer {
   padding-bottom: 1rem;
   flex-flow: wrap;
   justify-content: center;
+/* ------------------ DESTINOS INTERNACIONAIS -------------------  */
+
+.banner-destinos-int {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg);
+  width:100vw;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: top 40px;
 }
