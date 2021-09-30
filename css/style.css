@@ -133,6 +133,9 @@ body{
   width: 100px;
 }
 
+.depoimentos {
+  background-color: seashell;
+}
 .foto-cliente img {
   border-radius: 50%;
   width: 140px;
