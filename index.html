@@ -33,113 +33,591 @@
     </header>
   </div>
   <main>
-  <section id="banner">
-    <div class= "d-flex align-items-center flex-column about-us">
-    <p class="sobre-nos mb-4" > Somos uma empresa com mais de 20 anos de mercado.<br> Trabalhamos para que você possa ir aonde quiser.  </p>
-  <button class="btn btn-info" type= "button"> <a class="text-decoration-none"
-      href="./destinos.html"> Veja nossos destinos </a></button>
-    </div>
-  </section>
-  <section id="griddestinos" class="destinos mb-4 d-flex justify-content-center">
-    <div class="container">
-      <h2 class="mb-4 mt-4 text-center">Principais Destinos Internacionais</h2>
-      <div class="row row-cols-4">
-        <div class="col d-flex flex-column align-items-center"> 
-          <div class="img-destinos new-york mb-4"> </div>
-          <p class="text-center"> Nova York - EUA</p>
-          <button class="btn btn-info btn-outline-light">Saiba Mais</button>
-        </div>
-        <div class="col d-flex flex-column align-items-center">
-          <div class="img-destinos london mb-4"> </div>
-          <p class="text-center">Londres - Inglaterra</p>
-          <button class="btn btn-info btn-outline-light">Saiba Mais</button>
-        </div>
-        <div class="col d-flex flex-column align-items-center">
-          <div class="img-destinos auckland mb-4"> </div>
-          <p class="text-center">Auckland - Nova Zelândia</p>
-          <button class="btn btn-info btn-outline-light">Saiba Mais</button>
-        </div>
-        <div class="col d-flex flex-column align-items-center">
-          <div class="img-destinos berlin mb-4"> </div>
-          <p class="text-center">Berlin - Alemanha</p>
-          <button class="btn btn-info btn-outline-light">Saiba Mais</button>          
+    <section id="banner">
+      <div class="px-4 py-5 d-flex align-items-center flex-column align-items-center">
+        <div class="col-lg-6">
+          <p class="lead mb-4 sobre-nos"> Somos uma empresa com mais de 20 anos de mercado.<br> Trabalhamos para que
+            você possa ir aonde quiser.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="./destinos-nacionais.html"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Destinos
+                Nacionais</button> </a>
+            <a href="./destinos-internacionais.html"><button type="button" class="btn btn-success btn-lg px-4">Destinos
+                Internacionais</button> </a>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="row row-cols-4 mt-4">
-        <div class="col d-flex flex-column align-items-center"> 
-          <div class="img-destinos egito mb-4"> </div>
-          <p class="text-center">Egito</p>
-          <button class="btn btn-info btn-outline-light">Saiba Mais</button>
-        </div>
-        <div class="col d-flex flex-column align-items-center">
-          <div class="img-destinos dubai mb-4"> </div>
-          <p class="text-center">Dubai - Emirados Arabes</p>
-          <button class="btn btn-info btn-outline-light">Saiba Mais</button>
-        </div>
-        <div class="col d-flex flex-column align-items-center">
-          <div class="img-destinos disney mb-4"> </div>
-          <p class="text-center">Disney - EUA</p>
-          <button class="btn btn-info btn-outline-light">Saiba Mais</button>
-        </div>
-        <div class="col d-flex flex-column align-items-center">
-          <div class="img-destinos las-vegas mb-4"> </div>
-          <p class="text-center">Las Vegas - EUA </p>
-          <button class="btn btn-info btn-outline-light">Saiba Mais</button>          
-        </div>
     </div>
-    <div class="col mt-4 d-flex flex-column align-items-center">
-      <a href="destinos-internacionais.html">
-      <button class="mt-4 btn btn-warning btn-lg btn-outline-light">Ver pacotes</button>          
+    </section>
+
+    <section id="griddestinos">
+
+      <div class="container-fluid">
+
+        <h2 class="mb-4 mt-4 text-center">Principais Destinos Internacionais</h2>
+
+        <div class="row">
+          <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap">
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos new-york mb-4"> </div>
+              <p class="text-center"> Nova York - EUA</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#new-york">Saiba
+                Mais</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos london mb-4"> </div>
+              <p class="text-center">Londres - Inglaterra</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#londres">Saiba
+                Mais</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos auckland mb-4"> </div>
+              <p class="text-center">Auckland - Nova Zelândia</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#auckland">Saiba
+                Mais</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos berlin mb-4"> </div>
+              <p class="text-center">Berlin - Alemanha</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#berlin">Saiba
+                Mais</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap">
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos egito mb-4"> </div>
+              <p class="text-center">Egito</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#egito">Saiba
+                Mais</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos dubai mb-4"> </div>
+              <p class="text-center">Dubai - Emirados Arabes</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#dubai">Saiba
+                Mais</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos disney mb-4"> </div>
+              <p class="text-center">Disney - EUA</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#disney">Saiba
+                Mais</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos las-vegas mb-4"> </div>
+              <p class="text-center">Las Vegas - EUA </p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#las-vegas">Saiba
+                Mais</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-row align-items-center justify-content-center mb-2">
+        <a href="destinos-internacionais.html">
+          <button class="mt-4 btn btn-warning btn-lg btn-outline-light">Ver pacotes</button>
         </a>
-    </div>
-  </section>
-  <section class="depoimentos mb-4 d-flex justify-content-center text-center">
-    <div class="container marketing">
-      <h2 class="mb-4 mt-4">Depoimentos</h2>
+      </div>
+    </section>
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="foto-cliente mb-2">
-            <img src="./img/Marina.jpg" alt="">
-          </div>  
-          <h2>Marina Almeida</h2>
-          <p>Roteiro perfeito. Foram as melhores férias da minha vida!!</p>
-          <div class="rating">
-            <img src="/img/5-star.png" alt="5 estrelas">
+    <section id="griddestinos" class="destinos mb-4 d-flex justify-content-center">
+      <div class="container-fluid">
+        <h2 class="mb-4 mt-4 text-center">Principais Destinos Nacionais</h2>
+
+        <div class="row">
+          <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap">
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos rj mb-4"> </div>
+              <p class="text-center"> Rio de Janeiro</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#rj">Saiba
+                Mais</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos curitiba mb-4"> </div>
+              <p class="text-center">Curitiba - Paraná</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#curitiba">Saiba
+                Mais</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos salvador mb-4"> </div>
+              <p class="text-center">Salvador - Bahia</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#salvador">Saiba
+                Mais</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos sp mb-4"> </div>
+              <p class="text-center"> São Paulo</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#sp">Saiba
+                Mais</button>
+            </div>
           </div>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <div class="foto-cliente mb-2">
-            <img src="./img/carlos.jpg" alt="Foto Marina">
-          </div>  
-          <h2>Carlos Prado</h2>
-          <p>Minha família amou nossa viagem! Vivemos momentos inesquecíveis.</p>
-          <div class="rating">
-            <img src="/img/5-star.png" alt="5 estrelas">
+        </div>
+        <div class="row">
+          <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap">
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos foz mb-4"> </div>
+              <p class="text-center">Foz do Iguaçu - Paraná</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#foz">Saiba
+                Mais</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos amazonas mb-4"> </div>
+              <p class="text-center"> Amazonas</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#amazonas">Saiba
+                Mais</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos minas mb-4"> </div>
+              <p class="text-center">Minas Gerais</p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#minas">Saiba
+                Mais</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center mb-2">
+              <div class="img-destinos fortaleza mb-4"> </div>
+              <p class="text-center">Fortaleza - Ceará </p>
+              <button class="btn btn-info btn-outline-light" data-bs-toggle="modal" data-bs-target="#fortaleza">Saiba
+                Mais</button>
+            </div>
           </div>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <div class="foto-cliente mb-2">
-            <img src="./img/Amelia.jpg" alt="Foto carlos">
+        </div>
+        <div class="col mt-4 d-flex flex-column align-items-center mb-2">
+          <a href="destinos-nacionais.html">
+            <button class="mt-4 btn btn-warning btn-lg btn-outline-light">Ver pacotes</button>
+          </a>
+        </div>
+    </section>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="new-york" tabindex="-1" role="dialog" aria-labelledby="new-york" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">Nova York</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <h2>Amélia Fontes</h2>
-          <p>Já viajei com diferentes agências, essa é de longe a melhor de todas.</p>
-          <div class="rating">
-            <img src="/img/5-star.png" alt="5 estrelas">
-          </div>         
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-  </section>
-  <section class="reservas mb-4 mt-4 d-flex justify-content-center text-center">
-    <div class=" col-8 h-100 p-5 text-white bg-warning rounded-3">
-      <h2>Solicite uma cotação</h2>
-      <p>Trabalhamos com os principais destino e oferecemos pacotes totalmente customizáveis</p>
-      <button class="btn btn-outline-light" type="button">Solicitar Cotação</button>
+          <div class="modal-body px-5 py-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi officiis, vel dolores itaque voluptatem
+              deserunt exercitationem veritatis aut illo quam, earum quis rerum nisi incidunt? Corrupti assumenda sequi
+              possimus debitis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, fuga.</p>
+
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="modal fade" id="londres" tabindex="-1" role="dialog" aria-labelledby="londres" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">Londres</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos ex modi assumenda beatae corporis
+              et. Aliquid rerum incidunt explicabo maiores ea? Perspiciatis maxime nulla autem vero excepturi ratione
+              quaerat rerum reprehenderit eligendi, exercitationem consectetur, deleniti suscipit culpa dolores
+              molestias, beatae ducimus perferendis. Totam, labore incidunt?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quo molestiae suscipit enim maiores
+              mollitia, odio qui. Facilis fugiat impedit repellendus temporibus ut. Aliquid nulla neque corporis
+              delectus maiores.</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
+    <div class="modal fade" id="auckland" tabindex="-1" role="dialog" aria-labelledby="auckland" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Auckland</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minima repellendus possimus doloremque
+              praesentium cupiditate est maiores aspernatur cumque soluta?
+            </p>
+
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, non provident doloremque officiis temporibus
+              omnis minima. Dolores veniam nisi maxime tenetur est distinctio officiis?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="berlin" tabindex="-1" role="dialog" aria-labelledby="berlin" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Berlin
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempore, nulla ipsum officiis nobis
+              recusandae rem amet laborum, deleniti a dignissimos dolorem odio modi facilis necessitatibus temporibus
+              labore. Autem, nemo.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus recusandae architecto doloremque
+              at nam porro quaerat ad. Eum repudiandae eveniet harum rem eius labore, hic fugiat, recusandae dolor,
+              magnam temporibus necessitatibus amet facilis porro debitis. Explicabo voluptatem tenetur odio saepe
+              quibusdam rem sit recusandae expedita. Totam corrupti vitae veritatis minima repellat harum suscipit a,
+              provident nesciunt aperiam aspernatur, saepe iusto?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="egito" tabindex="-1" role="dialog" aria-labelledby="egito" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Egito
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit recusandae culpa tenetur magnam
+              sapiente aliquam aliquid dignissimos. Enim illo vitae rerum laudantium temporibus placeat sed voluptatem
+              ullam similique distinctio laboriosam ipsum nulla fugiat repudiandae quidem debitis perspiciatis, pariatur
+              nostrum praesentium. Aperiam corrupti itaque fugiat amet cum expedita cupiditate aliquam repudiandae.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="dubai" tabindex="-1" role="dialog" aria-labelledby="dubai" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Dubai
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum explicabo recusandae in eum totam
+              voluptatem reprehenderit! Minima et rerum voluptas unde porro, error qui quas eveniet esse harum
+              repellendus placeat.
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis sint odit nostrum magni aspernatur optio
+              fuga quasi eaque, commodi necessitatibus quos veritatis dolores in facilis, vitae laudantium doloribus?
+              Labore, id!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="disney" tabindex="-1" role="dialog" aria-labelledby="disney" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Disney
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati sequi voluptatem, vitae ducimus quasi
+              animi accusamus, debitis ea velit tempore repellat aliquid reprehenderit omnis! Non commodi, fugiat ea
+              quos reprehenderit tenetur ducimus iusto libero obcaecati iure velit ut ex!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="las-vegas" tabindex="-1" role="dialog" aria-labelledby="las-vegas" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Las Vegas
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum explicabo recusandae in eum totam
+              voluptatem reprehenderit! Minima et rerum voluptas unde porro, error qui quas eveniet esse harum
+              repellendus placeat.
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis sint odit nostrum magni aspernatur optio
+              fuga quasi eaque, commodi necessitatibus quos veritatis dolores in facilis, vitae laudantium doloribus?
+              Labore, id!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="rj" tabindex="-1" role="dialog" aria-labelledby="rj" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">Rio de Janeiro</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>Rio de Janeiro (informalmente referida como Rio[7]) é um município brasileiro, capital do estado
+              homônimo, situado no Sudeste do país. Maior destino turístico internacional no Brasil,[8] da América
+              Latina e de todo o Hemisfério Sul,[9] a capital fluminense é a cidade brasileira mais conhecida no
+              exterior,[10] funcionando como um "espelho", ou "retrato" nacional, seja positiva ou negativamente. É a
+              segunda maior metrópole do Brasil (depois de São Paulo), a sexta maior da América e a trigésima quinta do
+              mundo. Sua população estimada pelo IBGE para 1.º de julho de 2021 era de 6 775 561 habitantes.[3] Tem o
+              epíteto de Cidade Maravilhosa e aquele que nela nasce é chamado de carioca.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="curitiba" tabindex="-1" role="dialog" aria-labelledby="curitiba" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Curitiba</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minima repellendus possimus doloremque
+              praesentium cupiditate est maiores aspernatur cumque soluta?
+            </p>
+
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, non provident doloremque officiis temporibus
+              omnis minima. Dolores veniam nisi maxime tenetur est distinctio officiis?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="salvador" tabindex="-1" role="dialog" aria-labelledby="salvador" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Salvador
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempore, nulla ipsum officiis nobis
+              recusandae rem amet laborum, deleniti a dignissimos dolorem odio modi facilis necessitatibus temporibus
+              labore. Autem, nemo.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus recusandae architecto doloremque
+              at nam porro quaerat ad. Eum repudiandae eveniet harum rem eius labore, hic fugiat, recusandae dolor,
+              magnam temporibus necessitatibus amet facilis porro debitis. Explicabo voluptatem tenetur odio saepe
+              quibusdam rem sit recusandae expedita. Totam corrupti vitae veritatis minima repellat harum suscipit a,
+              provident nesciunt aperiam aspernatur, saepe iusto?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="sp" tabindex="-1" role="dialog" aria-labelledby="sp" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              São Paulo
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit recusandae culpa tenetur magnam
+              sapiente aliquam aliquid dignissimos. Enim illo vitae rerum laudantium temporibus placeat sed voluptatem
+              ullam similique distinctio laboriosam ipsum nulla fugiat repudiandae quidem debitis perspiciatis, pariatur
+              nostrum praesentium. Aperiam corrupti itaque fugiat amet cum expedita cupiditate aliquam repudiandae.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="foz" tabindex="-1" role="dialog" aria-labelledby="foz" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Foz do Iguaçu
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum explicabo recusandae in eum totam
+              voluptatem reprehenderit! Minima et rerum voluptas unde porro, error qui quas eveniet esse harum
+              repellendus placeat.
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis sint odit nostrum magni aspernatur optio
+              fuga quasi eaque, commodi necessitatibus quos veritatis dolores in facilis, vitae laudantium doloribus?
+              Labore, id!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="amazonas" tabindex="-1" role="dialog" aria-labelledby="amazonas" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Amazonas
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati sequi voluptatem, vitae ducimus quasi
+              animi accusamus, debitis ea velit tempore repellat aliquid reprehenderit omnis! Non commodi, fugiat ea
+              quos reprehenderit tenetur ducimus iusto libero obcaecati iure velit ut ex!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="minas" tabindex="-1" role="dialog" aria-labelledby="minas" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Minas Gerais
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum explicabo recusandae in eum totam
+              voluptatem reprehenderit! Minima et rerum voluptas unde porro, error qui quas eveniet esse harum
+              repellendus placeat.
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis sint odit nostrum magni aspernatur optio
+              fuga quasi eaque, commodi necessitatibus quos veritatis dolores in facilis, vitae laudantium doloribus?
+              Labore, id!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="fortaleza" tabindex="-1" role="dialog" aria-labelledby="fortaleza" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-1">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Fortaleza
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5 py-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum explicabo recusandae in eum totam
+              voluptatem reprehenderit! Minima et rerum voluptas unde porro, error qui quas eveniet esse harum
+              repellendus placeat.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="depoimentos mb-4 d-flex justify-content-center text-center">
+      <div class="container marketing">
+        <h2 class="mb-4 mt-4">Depoimentos</h2>
+        <!-- Three columns of text below the carousel -->
+        <div class="row mb-4">
+          <div class="col-lg-4 mb-5">
+            <div class="foto-cliente mb-2">
+              <img src="./img/Marina.jpg" alt="foto marina">
+            </div>
+            <h2>Marina Almeida</h2>
+            <p>Roteiro perfeito. Foram as melhores férias da minha vida!!</p>
+            <div class="rating">
+              <img src="./img/5-star.png" alt="5 estrelas">
+            </div>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="foto-cliente mb-2">
+              <img src="./img/carlos.jpg" alt="Foto carlos">
+            </div>
+            <h2>Carlos Prado</h2>
+            <p>Minha família amou nossa viagem! Vivemos momentos inesquecíveis.</p>
+            <div class="rating">
+              <img src="./img/5-star.png" alt="5 estrelas">
+            </div>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="foto-cliente mb-2">
+              <img src="./img/Amelia.jpg" alt="Foto amelia">
+            </div>
+            <h2>Amélia Fontes</h2>
+            <p>Já viajei com diferentes agências, essa é de longe a melhor de todas.</p>
+            <div class="rating">
+              <img src="./img/5-star.png" alt="5 estrelas">
+            </div>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="foto-cliente mb-2">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BNWI0MWY0OTYtMTEzZC00NTU1LTg3YjYtZGJiNzI5YzIyMmZmXkEyXkFqcGdeQXVyMTU3MzMwNQ@@._V1_.jpg"
+                alt="Foto helena">
+            </div>
+            <h2>Helena Way</h2>
+            <p>Foi a melhor viagem da minha vida!!</p>
+            <div class="rating">
+              <img src="./img/5-star.png" alt="5 estrelas">
+            </div>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="foto-cliente mb-2">
+              <img src="https://pt-static.z-dn.net/files/dbd/a2bb4379cd7badcb4ecda9d86ca835d5.jpg" alt="Foto gerard">
+            </div>
+            <h2>Geraldo Caminho</h2>
+            <p>A equipe da agência é muito atenciosa!</p>
+            <div class="rating">
+              <img src="./img/5-star.png" alt="5 estrelas">
+            </div>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="foto-cliente mb-2">
+              <img
+                src="https://s2.glbimg.com/MOB0OCLTQw2JhDioNAHa8eQiNj8=/top/e.glbimg.com/og/ed/f/original/2020/08/16/brandon.jpg"
+                alt="Foto brendon">
+            </div>
+            <h2>Brendon Urie</h2>
+            <p>Aqui eu encontrei o melhor custo benefício.</p>
+            <div class="rating">
+              <img src="./img/5-star.png" alt="5 estrelas">
+            </div>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </section>
+    <section class="reservas mb-4 mt-4 d-flex justify-content-center text-center">
+      <div class=" col-8 h-100 p-5 text-white bg-warning rounded-3">
+        <h2>Solicite uma cotação</h2>
+        <p>Trabalhamos com os principais destino e oferecemos pacotes totalmente customizáveis</p>
+        <a href="./contato.html"><button class="btn btn-outline-light" type="button">Solicitar Cotação</button></a>
+      </div>
+      </div>
+    </section>
   </main>
   <div class="fab-btn">
     <a href="#" target="_blank" rel="noopener noreferrer">
@@ -147,26 +625,28 @@
         <i class="material-icons-outlined">question_answer</i>
       </button>
     </a>
-    </div>
+  </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
-        <p class="col-md-4 mb-0 text-muted">© 2021 Bom trajeto SA</p>
-    
-        <a href="/" class="col-md-3 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-        </a>
-    
-        <ul class="nav col-md-4 justify-content-center">
-          <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
-          <li class="nav-item"><a href="./destinos.html" class="nav-link px-2 text-muted">Destinos</a></li>
-          <li class="nav-item"><a href="./sobrenos.html" class="nav-link px-2 text-muted">Sobre nós</a></li>
-          <li class="nav-item"><a href="./login.html" class="nav-link px-2 text-muted">Login</a></li>
-        </ul>
-      </footer>
-    </div>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+    <p class="col-md-4 mb-0 text-muted">© 2021 Bom trajeto SA</p>
+
+    <a href="/"
+      class="col-md-3 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32">
+        <use xlink:href="#bootstrap"></use>
+      </svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-center">
+      <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="./sobrenos.html" class="nav-link px-2 text-muted">Sobre nós</a></li>
+      <li class="nav-item"><a href="./login.html" class="nav-link px-2 text-muted">Login</a></li>
+    </ul>
+  </footer>
+  </div>
 </body>
 
 </html>
