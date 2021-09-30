@@ -97,6 +97,38 @@ body{
   background-image: url(https://www.daninoce.com.br/wp-content/uploads/2017/11/o-que-voce-precisa-saber-antes-de-ir-a-las-vegas-dani-noce-imagem-destaque-960x625.jpg);
 }
 
+.rj {
+  background-image: url(https://super.abril.com.br/wp-content/uploads/2017/12/rio-de-janeiro.png?w=1024);
+}
+
+.curitiba {
+  background-image: url(https://viajarverde.com.br/wp-content/uploads/2017/04/00001202-810x540.jpg);
+}
+
+.salvador {
+  background-image: url(https://vemvoar.voeazul.com.br/wp-content/uploads/2018/10/conheca-salvador-e-se-apaixone-pela-capital-baiana.jpeg);
+}
+
+.sp {
+  background-image: url(https://viagemeturismo.abril.com.br/wp-content/uploads/2017/12/istock-842960000.jpg);
+}
+
+.foz {
+  background-image: url(http://www.loumarturismo.com.br/img/passeios-860x600/cataratas-860x600.jpg);
+}
+
+.amazonas {
+  background-image: url(https://veja.abril.com.br/wp-content/uploads/2017/03/rio-amazonas-20060602-031.jpg?quality=70&strip=info&w=1024);
+}
+
+.minas {
+  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/ab/00/bf/praca-tiradentes-in-the.jpg?w=700&h=500&s=1);
+}
+
+.fortaleza {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/79/Fortaleza%2C_Brazil_%284%29.jpg);
+}
+
 .rating img{
   width: 100px;
 }
