@@ -40,9 +40,6 @@ body{
 
   #banner{
     background-image: url(../img/top-view-tourist-items-arrangement.jpg) ;
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
     background-attachment: fixed;
   }
 
@@ -167,15 +164,18 @@ footer {
   opacity: 1;
 }
 
-
-/* ------------------ DESTINOS INTERNACIONAIS -------------------  */
-
-.banner-destinos-int {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg);
+/* ------------------ BANNER PAGINAS -------------------  */
+.banner-destinos-int, #banner-nac, #banner {
   width:100vw;
   background-size: cover;
   height: 70vh;
   background-attachment: fixed;
+}
+
+/* ------------------ DESTINOS INTERNACIONAIS -------------------  */
+
+.banner-destinos-int {
+  background-image: url(https://media.cntraveler.com/photos/5b914e80d5806340ca438db1/16:9/w_2560%2Cc_limit/BrandenburgGate_2018_GettyImages-549093677.jpg);
   background-position: top 40px;
 }
 
@@ -193,9 +193,8 @@ footer {
   height: 70vh;
 }
 
+/* ------------------ DESTINOS NACIONAIS -------------------  */
+
 #banner-nac {
   background-image: url(https://vejario.abril.com.br/wp-content/uploads/2020/12/CRISTO-REDENTOR-CORCOVADO-RJ-19.jpg);
-  height: 70vh;
-  background-size: cover;
-  background-position: center;
 }
