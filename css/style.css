@@ -187,3 +187,8 @@ footer {
 .btn-contato {
   text-align: center;
 }
+
+.banner-contato {
+  background-color: rgb(57, 32, 124);
+  height: 70vh;
+}
