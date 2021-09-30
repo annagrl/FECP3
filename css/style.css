@@ -154,7 +154,10 @@ footer {
   padding-bottom: 1rem;
   flex-flow: wrap;
   justify-content: center;
+  margin: 0 auto;
 }
+
+
 /* ------------------ DESTINOS INTERNACIONAIS -------------------  */
 
 .banner-destinos-int {
