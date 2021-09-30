@@ -10,6 +10,7 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    background: rgb(57, 32, 124);
    
   }
 
@@ -54,15 +55,15 @@ footer {
 
   /* ------------------ SOBRE NÓS -------------------  */
 
-.time {
-    background: rgb(57, 32, 124);
+.time{
+    
     z-index: -1;
-    height: 80vh;
+    
   } 
   
   #equipe{
     gap:1.3rem;
-    align-items: center;
+    
     padding-bottom: 1rem;
     flex-flow: wrap;
     justify-content: center;
