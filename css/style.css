@@ -192,3 +192,10 @@ footer {
   background-color: rgb(57, 32, 124);
   height: 70vh;
 }
+
+#banner-nac {
+  background-image: url(https://vejario.abril.com.br/wp-content/uploads/2020/12/CRISTO-REDENTOR-CORCOVADO-RJ-19.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+}
