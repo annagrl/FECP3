@@ -226,6 +226,10 @@ footer {
 .banner-contato {
   background-color: rgb(57, 32, 124);
   height: 70vh;
+  background-image: url(../img/pink-suitcase-with-hat-and-globe-on-it.jpg);
+  background-repeat: no-repeat;
+  background-position:bottom ;
+  background-size: cover;
 }
 
 /* ------------------ DESTINOS NACIONAIS -------------------  */
