@@ -199,6 +199,12 @@ footer {
   opacity: 1;
 }
 
+ @media (min-width: 375px) {
+    .subir {
+      margin-top: -200px;
+    }
+} 
+
 /* ------------------ BANNER PAGINAS -------------------  */
 .banner-destinos-int, #banner-nac, #banner {
   width:100vw;
