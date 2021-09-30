@@ -10,7 +10,7 @@
 
 body{
     font-family: "Poppins", sans-serif;
-    background: rgb(57, 32, 124);
+    background: seashell
    
   }
 
@@ -81,4 +81,7 @@ footer {
     opacity: 1;
   }
   
-  
+  .card{
+    width: 21rem;
+    
+  }
