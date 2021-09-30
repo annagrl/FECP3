@@ -43,13 +43,6 @@ body{
     background-attachment: fixed;
   }
 
-.sobre-nos {
-  background-color: rgba(255, 255, 255, 0.712);
-  padding: 20px;
-  border-radius: 10px 0;
-  margin-top: 250px;
-  text-align: center;
-}
 
 
 .img-destinos {
@@ -171,33 +164,6 @@ footer {
   background-color: seashell;
 }
 
-/* ------------------ SOBRE NÓS -------------------  */
-
-.time {
-  background: rgb(57, 32, 124);
-  z-index: -1;
-  height: 80vh;
-} 
-
-#equipe{
-  gap:1.3rem;
-  align-items: center;
-  padding-bottom: 1rem;
-  flex-flow: wrap;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-.membro {
-  transition: all .3s ease-in-out;
-  opacity: 0.7;
-
-}
-
-.membro:hover {
-  transform: scale(1.1);
-  opacity: 1;
-}
 
 /* ------------------ BANNER PAGINAS -------------------  */
 .banner-destinos-int, #banner-nac, #banner {
